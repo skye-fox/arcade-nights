@@ -88,7 +88,7 @@ function M.setup(opts)
 	set(0, "SpecialChar", { link = "Special" }) -- special character in a constant
 	set(0, "SpecialComment", { link = "Special" }) -- special things inside a comment
 	set(0, "Statement", { fg = pal.lavender }) -- any statement
-	set(0, "StorageClass", { fg = pal.mistake }) -- static, register, volatile, etc.
+	set(0, "StorageClass", { fg = pal.flamingo }) -- static, register, volatile, etc.
 	set(0, "String", { fg = pal.peach })
 	set(0, "Structure", { fg = pal.yellow }) -- struct, union, enum, etc.
 	set(0, "Tag", { fg = pal.mistake }) -- you can use CTRL-] on this
