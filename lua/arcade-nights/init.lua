@@ -64,7 +64,7 @@ function M.setup(opts)
 	set(0, "Conditional", { fg = pal.flamingo }) -- if, then, else, endif, switch, etc.
 	set(0, "Constant", { fg = pal.flamingo }) -- any constant
 	set(0, "Debug", { fg = pal.red }) -- debugging statements
-	set(0, "Define", { fg = pal.mauve }) -- preprocessor #define
+	set(0, "Define", { fg = pal.purple }) -- preprocessor #define
 	set(0, "Delimiter", { fg = pal.text0 }) -- character that needs attention
 	set(0, "Directory", { fg = pal.lavender }) -- character that needs attention
 	set(0, "Error", { fg = pal.red }) -- any erroneous construct
@@ -76,11 +76,11 @@ function M.setup(opts)
 	set(0, "Include", { fg = pal.purple }) -- preprocessor #include
 	set(0, "Keyword", { fg = pal.flamingo }) -- any other keyword
 	set(0, "Label", { fg = pal.teal }) -- case, default, etc.
-	set(0, "Macro", { fg = pal.mauve }) -- same as Define
+	set(0, "Macro", { fg = pal.purple }) -- same as Define
 	set(0, "Normal", { fg = pal.text0 })
 	set(0, "Number", { fg = pal.purple })
 	set(0, "Operator", { fg = pal.sky }) -- "sizeof", "+", "*", etc.
-	set(0, "PreCondit", { fg = pal.mauve }) -- preprocessor #if, #else, #endif, etc.
+	set(0, "PreCondit", { fg = pal.purple }) -- preprocessor #if, #else, #endif, etc.
 	set(0, "PreProc", { fg = pal.sky }) -- generic Preprocessor
 	set(0, "Removed", { fg = pal.red }) -- removed line in a diff
 	set(0, "Repeat", { fg = pal.mistake }) -- for, do, while, etc.
