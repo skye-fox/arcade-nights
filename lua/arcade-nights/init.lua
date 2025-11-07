@@ -80,7 +80,7 @@ function M.setup(opts)
 	set(0, "Normal", { fg = pal.text0 })
 	set(0, "Number", { fg = pal.purple })
 	set(0, "Operator", { fg = pal.sky }) -- "sizeof", "+", "*", etc.
-	set(0, "PreCondit", { fg = pal.mistake }) -- preprocessor #if, #else, #endif, etc.
+	set(0, "PreCondit", { fg = pal.mauve }) -- preprocessor #if, #else, #endif, etc.
 	set(0, "PreProc", { fg = pal.sky }) -- generic Preprocessor
 	set(0, "Removed", { fg = pal.red }) -- removed line in a diff
 	set(0, "Repeat", { fg = pal.mistake }) -- for, do, while, etc.
