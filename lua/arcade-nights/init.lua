@@ -103,6 +103,7 @@ function M.setup(opts)
 	set(0, "@lsp.type.variable", {})
 	set(0, "@lsp.typemod.function.defaultLibrary", { link = "@function.builtin" })
 	set(0, "@lsp.typemod.function.builtin", { link = "@function.builtin" })
+	set(0, "@lsp.typemod.method.declaration.zig", { fg = pal.spring })
 
 	-- Semantic Token Zig
 	set(0, "@lsp.mod.declaration.zig", { fg = pal.lavender })
